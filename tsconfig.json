@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "module": "esnext",
+      "esModuleInterop": true,
+      "declaration": false,
+      "noImplicitAny": false,
+      "noUnusedLocals": false,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "target": "es2020",
+      "sourceMap": true,
+      "allowJs": true,
+      "outDir": "dist",
+      "moduleResolution": "node",
+      "lib": [
+        "es7"
+      ]
+    },
+    "include": ["src/backend/**/*"]
+}
