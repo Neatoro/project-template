@@ -1,0 +1,62 @@
+{
+    "plugins": [
+        "@typescript-eslint",
+        "import"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:import/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "env": {
+        "es2021": true,
+        "node": true
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "semi-style": [
+            "error",
+            "last"
+        ],
+        "indent": [
+            "error",
+            4
+        ],
+        "import/order": [
+            "error",
+            {
+                "groups": [
+                    "index",
+                    "sibling",
+                    "parent",
+                    "internal",
+                    "external",
+                    "builtin",
+                    "object",
+                    "type"
+                ]
+            }
+        ]
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [
+                    ".js",
+                    ".ts"
+                ]
+            }
+        }
+    }
+}
