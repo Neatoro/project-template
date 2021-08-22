@@ -16,6 +16,7 @@
     "prettier": "npm run lint -- --fix"
   },
   "dependencies": {
+    "@nestjs/common": "^8.0.6",
     "@nestjs/core": "^8.0.6",
     "@nestjs/platform-express": "^8.0.6",
     "rxjs": "^7.3.0"
